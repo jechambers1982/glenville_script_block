@@ -1,0 +1,22 @@
+uuid: 3acfb31a-5c00-4e02-a955-dcc05c09806f
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - text
+  enforced:
+      module:
+            - glenville_script_block
+id: block_content.field_code_snippet
+field_name: field_code_snippet
+entity_type: block_content
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

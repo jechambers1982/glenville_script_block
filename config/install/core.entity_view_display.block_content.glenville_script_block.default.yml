@@ -1,0 +1,26 @@
+uuid: 95713473-b1e4-40ff-bba2-223745896313
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.glenville_script_block
+    - field.field.block_content.glenville_script_block.field_code_snippet
+  module:
+    - text
+  enforced:
+      module:
+            - glenville_script_block
+id: block_content.glenville_script_block.default
+targetEntityType: block_content
+bundle: glenville_script_block
+mode: default
+content:
+  field_code_snippet:
+    type: text_default
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    weight: 1
+    region: content
+hidden:
+  langcode: true

@@ -1,0 +1,11 @@
+uuid: fa0278aa-f747-4797-9ec2-e11b9d2dc111
+langcode: en
+status: true
+dependencies:
+  enforced:
+      module:
+            - glenville_script_block
+name: Scripts
+format: scripts_format
+weight: 0
+filters: {  }

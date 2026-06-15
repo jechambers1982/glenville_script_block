@@ -1,0 +1,27 @@
+uuid: 2030f85e-3fed-4037-ab33-7479e9fa4b6b
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.glenville_script_block
+    - field.storage.block_content.field_code_snippet
+    - filter.format.scripts_format
+  module:
+    - text
+  enforced:
+      module:
+            - glenville_script_block
+id: block_content.glenville_script_block.field_code_snippet
+field_name: field_code_snippet
+entity_type: block_content
+bundle: glenville_script_block
+label: Snippet
+description: ''
+required: true
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  allowed_formats:
+    - scripts_format
+field_type: text_long

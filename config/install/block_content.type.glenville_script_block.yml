@@ -1,0 +1,11 @@
+uuid: 608b9914-5a60-472b-acc0-0aae0ed4962d
+langcode: en
+status: true
+dependencies:
+  enforced:
+      module:
+            - glenville_script_block
+id: glenville_script_block
+label: 'Script Block'
+revision: true
+description: 'Used to place Javascript or CSS, This should only be allowed by administrators.'
