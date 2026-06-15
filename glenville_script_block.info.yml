@@ -1,0 +1,9 @@
+name: Glenville Script Block
+type: module
+description: Adds a custom block content type for safe script injection.
+core_version_requirement: ^11
+package: Glenville
+dependencies:
+  - block_content
+  - filter
+  - text
